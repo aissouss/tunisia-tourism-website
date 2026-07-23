@@ -1,78 +1,113 @@
-# 🌍 Site Web Touristique — Tunisie
+# 🌍 Tunisia Tourism — Static Website
 
-**Projet Front-End : HTML5 • CSS3 • JavaScript**
-
-Ce projet présente un **site web statique responsive** mettant en valeur les principales régions touristiques de la Tunisie.
-Il a été conçu pour offrir une interface moderne, fluide et agréable, avec une approche mobile-first pour garantir une expérience optimale sur tous les appareils.
+> **Academic Project** — A responsive multi-page tourism website showcasing Tunisia's regions, culture, heritage, and accommodations. Built with pure HTML5, CSS3, and vanilla JavaScript, mobile-first.
 
 ---
 
-## 🗂️ Structure du Projet
+## 🖼️ Pages
 
-```
-.
-├── index.html          # Page principale
-├── contact.html        # Page de contact
-├── culture.html        # Culture tunisienne
-├── hebergements.html   # Hôtels et logements
-├── patrimoine.html     # Patrimoine et sites historiques
-├── regions.html        # Régions touristiques
-│
-├── css/
-│   └── style.css       # Styles du site (responsive design)
-│
-├── js/
-│   └── main.js         # Animations, menu mobile, interactions
-│
-└── images/             # Images optimisées pour le web
-```
+| Page | Content |
+|---|---|
+| `index.html` | Home — hero, popular destinations, highlights |
+| `regions.html` | Overview of tourist regions |
+| `regions/tunis.html` | Tunis — medina, Carthage, Bardo |
+| `regions/sousse.html` | Sousse — beaches, medina |
+| `regions/djerba.html` | Djerba — island, Ghriba, Houmt Souk |
+| `regions/sfax.html` | Sfax — port, medina, Kerkennah |
+| `regions/tataouine.html` | Tataouine — ksars, desert, Chenini |
+| `culture.html` | Culture — gastronomy, crafts, music, festivals |
+| `patrimoine.html` | Heritage — historical sites & UNESCO monuments |
+| `hebergements.html` | Accommodations — hotels, riads, desert camps |
+| `contact.html` | Contact form |
 
 ---
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-✔️ **Design 100% responsive** (mobile-first)
-✔️ **Menu burger animé** pour smartphones
-✔️ **Animations JavaScript** (apparitions, transitions, scroll)
-✔️ **Navigation fluide entre les pages**
-✔️ **Formulaire de contact**
-✔️ **Pages thématiques** : culture, patrimoine, hébergements, régions
-✔️ **Optimisation des images** pour améliorer les performances
+- 📱 **100% responsive** — mobile-first design with CSS Grid & Flexbox
+- 🍔 **Animated burger menu** for mobile navigation
+- 🎞️ **Scroll animations** — sections appear on scroll (Intersection Observer)
+- 🗺️ **5 detailed region pages** — Tunis, Sousse, Djerba, Sfax, Tataouine
+- 🖼️ **Optimized images** — local assets for performance
+- 📬 **Contact form** — clean UI with validation
+- 🎨 **CSS custom properties** — easy color theming
 
 ---
 
-## 🚀 Installation & Utilisation
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure & semantics |
+| CSS3 (Flexbox, Grid, Variables) | Responsive layout & design |
+| JavaScript ES6+ | Burger menu, scroll animations, interactions |
+| [Font Awesome 6](https://fontawesome.com/) | Icons |
+| [Google Fonts — Poppins](https://fonts.google.com/) | Typography |
+
+> No frameworks, no build tools — pure static front-end.
+
+---
+
+## 🚀 Getting Started
+
+No installation needed.
 
 ```bash
-git clone https://github.com/aissouss/TOURISME-TUNISIE.git
+# 1. Clone the repository
+git clone https://github.com/aissouss/tunisia-tourism-website.git
+cd tunisia-tourism-website
+
+# 2. Open in browser
+# Simply open index.html
 ```
 
-Puis ouvrez simplement :
+Or serve locally:
 
+```bash
+# With Python
+python -m http.server 8000
+# Then open: http://localhost:8000
 ```
-index.html
-```
-
-Aucune installation supplémentaire n’est nécessaire — projet **100% front-end**.
 
 ---
 
-## 🎨 Personnalisation
+## 📁 Project Structure
 
-* Modifier les images dans le dossier `images/`
-* Ajuster les couleurs (variables CSS) dans `css/style.css`
-* Adapter le contenu dans les pages `.html`
+```
+tunisia-tourism-website/
+├── index.html
+├── regions.html
+├── culture.html
+├── patrimoine.html
+├── hebergements.html
+├── contact.html
+├── regions/
+│   ├── tunis.html
+│   ├── sousse.html
+│   ├── djerba.html
+│   ├── sfax.html
+│   └── tataouine.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── images/
+    ├── regions/
+    ├── culture/
+    └── partenaires/
+```
 
 ---
 
-## 🛠️ Technologies Utilisées
+## 🎓 Academic Context
 
-* **HTML5**
-* **CSS3 (Flexbox, Grid, Variables CSS)**
-* **JavaScript ES6+**
-* **Font Awesome**
+This project was developed as a Front-End Web Development course project during the L3 Software Engineering program.
+
+**Author:** Aissous  
+[GitHub](https://github.com/aissouss)
 
 ---
 
+## 📄 License
 
- 
+This project is for educational use only.
