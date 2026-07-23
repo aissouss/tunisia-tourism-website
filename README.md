@@ -103,7 +103,7 @@ tunisia-tourism-website/
 
 This project was developed as a Front-End Web Development course project during the L3 Software Engineering program.
 
-**Author:** Aissous  
+**Author:** Aissouss  
 [GitHub](https://github.com/aissouss)
 
 ---
